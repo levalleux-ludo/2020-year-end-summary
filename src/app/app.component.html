@@ -1,22 +1,30 @@
-<mat-toolbar color="primary">
-    Card view demo
+<mat-toolbar style="height: {{toolbarHeight}}px;">
+    <img src="assets/images/banner.png">
 </mat-toolbar>
-<div class="content">
+<div class="content" #content>
     <div fxLayout="row wrap" fxLayoutGap="16px grid">
-        <div fxFlex="25%" fxFlex.xs="100%" fxFlex.sm="33%" *ngFor="let num of [1,2,3,4,5,6,7]">
+        <div fxFlex="25%" fxFlex.xs="100%" fxFlex.sm="33%" *ngFor="let project of projects">
             <mat-card class="mat-elevation-z4">
                 <mat-card-header>
-                    <mat-card-title>Mountains {{num}}</mat-card-title>
+                    <mat-card-title>{{project.title}}</mat-card-title>
+                    <mat-card-subtitle>{{project.subtitle}}</mat-card-subtitle>
                 </mat-card-header>
-                <img mat-card-image src="assets/images/mountains.jpg">
+                <div class="card-img">
+                    <img mat-card-image src="{{project.images.main}}">
+                </div>
                 <mat-card-content>
-                    <p>
-                        The Himalayas is a mountain range in Asia.
+                    <p class="markdown">
+                        {{project.markdown}}
                     </p>
+                    <div fxLayout="row wrap" fxLayoutGap="2px grid">
+                        <div fxFlex="12%" *ngFor="let stackItem of project.stack" class="stackItem">
+                            <img src="{{STACK_IMAGES[stackItem].img}}" matTooltip="{{STACK_IMAGES[stackItem].tooltip}}">
+                        </div>
+                    </div>
                 </mat-card-content>
                 <mat-card-actions>
-                    <button mat-button>LIKE</button>
-                    <button mat-button>SHARE</button>
+                    <a mat-button href="demo" target="_blank">LIKE</a>
+                    <a mat-button href="video" target="_blank">SHARE</a>
                 </mat-card-actions>
             </mat-card>
         </div>

@@ -1,7 +1,31 @@
+:host {
+    width: 100%;
+}
+
 .content {
     padding: 16px;
+}
+
+mat-toolbar>img {
+    width: 100%;
+}
+
+mat-card-header {
+    height: 82px;
+}
+
+.card-img {
+    height: 280px;
+}
+
+.markdown {
+    height: 200px;
 }
 
 // .content>mat-card {
 //     width: 200px;
 // }
+.stackItem>img {
+    height: 30px;
+    // max-width: 40px;
+}
