@@ -9,7 +9,11 @@ export const DCL_RACING_KART = {
     'typescript', 'dcl', 'blender'
   ],
   markdown: `
-  Built for: __Decentraland Launch Event__
-  Built with: Decentraland SDK / Typescript / Blender
-  `
+  #### Enter the DaytoMana track, jump on a kart and race. This is a completely new VR experience deployed in Decentraland: the virtual world (or Metaverse) supported by Ethereum blockchain.
+  #### Built for __Decentraland Launch Event__ (fev 2020)
+  #### Built with:
+  `,
+  article: `https://www.linkedin.com/pulse/kart-simulation-game-decentraland-ludovic-levalleux/`,
+  demo: `http://play.decentraland.org/?position=-74,-28`,
+  video: `https://vimeo.com/418486466`
 }

@@ -10,7 +10,9 @@ import { MatToolbarModule } from '@angular/material/toolbar';
 import { MatButtonModule } from '@angular/material/button';
 import { FlexLayoutModule } from '@angular/flex-layout';
 import { MatTooltipModule } from '@angular/material/tooltip';
+import {MatIconModule} from '@angular/material/icon';
 
+import { MarkdownModule } from 'ngx-markdown';
 @NgModule({
   declarations: [
     AppComponent
@@ -23,7 +25,9 @@ import { MatTooltipModule } from '@angular/material/tooltip';
     MatToolbarModule,
     MatButtonModule,
     FlexLayoutModule,
-    MatTooltipModule
+    MatTooltipModule,
+    MarkdownModule.forRoot(),
+    MatIconModule,
   ],
   providers: [],
   bootstrap: [AppComponent]

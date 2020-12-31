@@ -26,14 +26,14 @@ export class AppComponent implements OnInit, AfterViewInit {
   title = 'year-end-summary';
   toolbarHeight = 100;
   projects = [
-    AVC_ROOM_BOOKING,
-    DCL_RACING_KART,
-    POLLUS,
     DECENTRADOCS,
-    PLOT,
     CRYPTOFANTASIA,
     DEFIVENTURE,
-    DCL_PICTIONARY
+    DCL_PICTIONARY,
+    DCL_RACING_KART,
+    POLLUS,
+    PLOT,
+    AVC_ROOM_BOOKING,
   ];
   STACK_IMAGES = {
     android: {img: 'assets/stack/android.png', tooltip: 'Mobile App for Android devices'},

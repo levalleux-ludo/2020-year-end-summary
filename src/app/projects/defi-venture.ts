@@ -11,8 +11,15 @@ export const DEFIVENTURE = {
   links: {
     project: ``,
   },
+  award: true,
   markdown: `
-  Built for: __ETHONLINE__ + __POST COVID Hack__ Hackathons + __MATIC Build'n Earn__ + Gitoin Grants Round 8
-  Awards: POST COVID Hack 2nd Prize Open Track + MATIC/Gitcoin Grants
- `
+  #### Same idea than my previous project __Crypto-Fantazia__, but new tech stack, moving from Tezos blockchain to Matic (layer 2: cheaper and faster transactions)
+  #### Built for: __ETHONLINE__ + __POST COVID Hack__ + __MATIC Build'n Earn__ + __Gitcoin Grants Round 8__ (oct/nov 2020)
+  #### Awards: __POST COVID Hack 2nd Prize Open Track__ + __MATIC/Gitcoin Grant__
+  #### Built with:
+ `,
+ article: `https://devpost.com/software/defi-venture`,
+ demo: `levalleux-ludo.github.io/DAPP/DeFiVenture/demo.html`,
+ video: `levalleux-ludo.github.io/DAPP/DeFiVenture/video.html`,
+ repo: `https://github.com/levalleux-ludo/DeFi-Venture`
 }

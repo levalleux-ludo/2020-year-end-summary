@@ -2,8 +2,21 @@
     <img src="assets/images/banner.png">
 </mat-toolbar>
 <div class="content" #content>
-    <div fxLayout="row wrap" fxLayoutGap="16px grid">
-        <div fxFlex="25%" fxFlex.xs="100%" fxFlex.sm="33%" *ngFor="let project of projects">
+    <div class="intro">
+        <h1>Introduction</h1>
+        <p>2020 is over. It was my first full year freelance and I&rsquo;m glad to present you the main projects I&rsquo;ve built this year.</p>
+        <ul>
+            <li>So exciting I was to make real a simple idea.</li>
+            <li>So many &ldquo;how to&rsquo;s&rdquo; I&rsquo;ve learnt to achieve these.</li>
+            <li>So challenging it was to complete by the deadlines.</li>
+            <li>So proud I was to compete with such talented other hackers from all around in the world.</li>
+            <li>So grateful I was when my work have been awarded some valuable prizes and grants.</li>
+        </ul>
+        <p>I would like to thank everyone who has trusted in me, appreciated my work, supported and encouraged me during this year. I'm sure next year I'll go further!</p>
+        <h1>Portfolio</h1>
+    </div>
+    <div fxLayout="row wrap" fxLayoutGap="32px grid">
+        <div fxFlex="480px" fxFlex.xs="100%" *ngFor="let project of projects">
             <mat-card class="mat-elevation-z4">
                 <mat-card-header>
                     <mat-card-title>{{project.title}}</mat-card-title>
@@ -13,9 +26,10 @@
                     <img mat-card-image src="{{project.images.main}}">
                 </div>
                 <mat-card-content>
-                    <p class="markdown">
-                        {{project.markdown}}
-                    </p>
+                    <div class="markdown">
+                        <markdown emoji [data]="project.markdown" class="markdown"></markdown>
+                        <div *ngIf="project.award" class="award"><img src="assets/award.png"></div>
+                    </div>
                     <div fxLayout="row wrap" fxLayoutGap="2px grid">
                         <div fxFlex="12%" *ngFor="let stackItem of project.stack" class="stackItem">
                             <img src="{{STACK_IMAGES[stackItem].img}}" matTooltip="{{STACK_IMAGES[stackItem].tooltip}}">
@@ -23,8 +37,27 @@
                     </div>
                 </mat-card-content>
                 <mat-card-actions>
-                    <a mat-button href="demo" target="_blank">LIKE</a>
-                    <a mat-button href="video" target="_blank">SHARE</a>
+                    <div fxLayout="row wrap" fxLayoutGap="6px grid">
+                        <!-- <a *ngIf="project.demo" mat-button href="{{project.demo}}" target="_blank">DEMO</a>
+                    <a *ngIf="project.video" mat-button href="{{project.video}}" target="_blank">VIDEO</a>
+                    <a *ngIf="project.repo" mat-button href="{{project.repo}}" target="_blank">REPOSITORY</a>
+                    <a *ngIf="project.article" mat-button href="{{project.article}}" target="_blank">ARTICLE</a> -->
+                        <a [disabled]="!project.demo" mat-button href="{{project.demo}}" target="_blank">
+                            <!-- <mat-icon>videogame_asset</mat-icon> -->
+                            <mat-icon>ondemand_video</mat-icon>
+                            DEMO
+                        </a>
+                        <a [disabled]="!project.video" mat-button href="{{project.video}}" target="_blank">
+                            <img src="assets/clap.png" class="mat-icon" [ngStyle]="{'opacity': project.video ? '1' : '0.25'}"> VIDEO
+                        </a>
+                        <a [disabled]="!project.repo" mat-button href="{{project.repo}}" target="_blank">
+                            <img src="assets/GitHub-Mark.png" class="mat-icon" [ngStyle]="{'opacity': project.repo ? '1' : '0.25'}"> CODE
+                        </a>
+                        <a [disabled]="!project.article" mat-button href="{{project.article}}" target="_blank">
+                            <mat-icon>description</mat-icon>
+                            ARTICLE
+                        </a>
+                    </div>
                 </mat-card-actions>
             </mat-card>
         </div>

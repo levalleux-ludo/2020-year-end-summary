@@ -14,18 +14,57 @@ mat-card-header {
     height: 82px;
 }
 
+mat-card-subtitle {
+    font-weight: bold;
+    font-size: larger;
+}
+
 .card-img {
-    height: 280px;
+    // height: 280px;
 }
 
 .markdown {
-    height: 200px;
+    // height: 200px;
+    position: relative;
 }
 
-// .content>mat-card {
-//     width: 200px;
-// }
+mat-card-content {
+    // height: 180px;
+}
+
+mat-card {
+    //     width: 200px;
+    // height: 580px;
+    padding-bottom: 36px;
+    // min-width: 250px;
+    ;
+}
+
 .stackItem>img {
     height: 30px;
     // max-width: 40px;
+}
+
+.award {
+    position: absolute;
+    bottom: 0px;
+    right: -12px;
+}
+
+.award>img {
+    height: 64px;
+}
+
+mat-card-actions {
+    position: absolute;
+    bottom: 16px;
+    // font-size: small;
+}
+
+.mat-button {
+    font-size: smaller;
+}
+
+.intro {
+    font-size: larger;
 }

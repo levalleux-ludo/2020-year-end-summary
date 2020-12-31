@@ -12,9 +12,14 @@ export const POLLUS = {
     project: `https://devpost.com/software/pollus-yx6dso`,
     repo: 'https://github.com/levalleux-ludo/pollus'
   },
+  award: true,
   markdown: `
-  Built for: __EthLondonUK__ Hackathon
-  Awards: Torus Prize
-  Built with:
-  `
+  #### An awesome experience to build an app with a backend, a discord bot, a frontend and a smart contract deployed on Ethereum in less than 48h.
+  By the way it was my very first smart contract
+  #### Built for: __EthLondonUK__ Hackathon (fev 2020)
+  #### Awards: __2nd Prize__ from Torus sponsor
+  #### Built with:
+  `,
+  article: `https://devpost.com/software/pollus-yx6dso`,
+  repo: `https://github.com/levalleux-ludo/pollus`
 }
