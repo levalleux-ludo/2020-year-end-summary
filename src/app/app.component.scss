@@ -11,6 +11,10 @@ mat-toolbar>img {
     width: 100%;
 }
 
+mat-toolbar {
+    background: none;
+}
+
 mat-card-header {
     // height: 82px;
 }
