@@ -1,6 +1,6 @@
 export const AVC_ROOM_BOOKING = {
   title: "Room Booking System",
-  subtitle: "A website to manage room booking online",
+  subtitle: "A Website To Manage Room Booking Online",
   images: {
     main:"assets/avc_room_booking/main.png",
     // stack:  "assets/avc_room_booking/stack.png",

@@ -15,7 +15,7 @@ interface Project {
   markdown: string;
 }
 
-const BANNER_RATIO = 1919/278;
+const BANNER_RATIO = 1919/140;
 
 @Component({
   selector: 'app-root',

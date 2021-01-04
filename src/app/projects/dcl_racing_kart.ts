@@ -1,6 +1,6 @@
 export const DCL_RACING_KART = {
   title: "Racing Kart Simulation",
-  subtitle: "A virtual simulation racing game in Decentraland",
+  subtitle: "A Virtual Simulation Racing Game In Decentraland",
   images: {
     main:"assets/dcl_racing_kart/main.png",
     // stack:  "assets/dcl_racing_kart/stack.png",

@@ -1,6 +1,6 @@
 export const PLOT = {
   title: "PLOT - Private Location Tracking",
-  subtitle: "A contact tracing application preserving individual privacy",
+  subtitle: "A Contact Tracing Application Preserving Individual Privacy",
   images: {
     main:"assets/PLOT/main.png",
     // stack:  "assets/PLOT/stack.png",

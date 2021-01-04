@@ -4,6 +4,7 @@
 
 .content {
     padding: 16px;
+    margin: 5%;
 }
 
 mat-toolbar>img {
@@ -11,7 +12,7 @@ mat-toolbar>img {
 }
 
 mat-card-header {
-    height: 82px;
+    // height: 82px;
 }
 
 mat-card-subtitle {
@@ -67,4 +68,9 @@ mat-card-actions {
 
 .intro {
     font-size: larger;
+}
+
+.intro>h1 {
+    font-family: Graphik Web, Arial, Helvetica, sans-serif;
+    font-weight: 600;
 }

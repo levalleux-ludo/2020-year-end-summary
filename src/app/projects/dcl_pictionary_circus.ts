@@ -1,6 +1,6 @@
 export const DCL_PICTIONARY = {
   title: "Pictionary Circus",
-  subtitle: "An online Pictionary game deployed in Decentraland virtual world",
+  subtitle: "An Online Pictionary Game Deployed In Decentraland Virtual World",
   images: {
     main:"assets/dcl_pictionary/main.jpg",
   },

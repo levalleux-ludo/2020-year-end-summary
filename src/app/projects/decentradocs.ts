@@ -1,6 +1,6 @@
 export const DECENTRADOCS = {
   title: "Decentradocs",
-  subtitle: "Decentralized Application for Managing Documents",
+  subtitle: "Decentralized Application For Managing Documents",
   images: {
     main:"assets/decentradocs/main.png",
     // stack:  "assets/decentradocs/stack.png",

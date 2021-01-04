@@ -14,8 +14,7 @@ export const POLLUS = {
   },
   award: true,
   markdown: `
-  #### An awesome experience to build an app with a backend, a discord bot, a frontend and a smart contract deployed on Ethereum in less than 48h.
-  By the way it was my very first smart contract
+  #### An awesome experience to build an app with a backend, a discord bot, a frontend and a smart contract deployed on Ethereum in less than 48h. By the way it was my very first smart contract.
   #### Built for: __EthLondonUK__ Hackathon (fev 2020)
   #### Awards: __2nd Prize__ from Torus sponsor
   #### Built with:
