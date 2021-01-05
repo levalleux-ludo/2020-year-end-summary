@@ -3,7 +3,7 @@
 }
 
 .content {
-    padding: 16px;
+    // padding: 16px;
     margin: 5%;
 }
 
@@ -26,6 +26,7 @@ mat-card-subtitle {
 
 .card-img {
     // height: 280px;
+    margin: 6px;
 }
 
 .markdown {
@@ -35,6 +36,11 @@ mat-card-subtitle {
 
 mat-card-content {
     // height: 180px;
+    background-color: #eeeeee;
+    border-radius: 8px;
+    padding: 12px;
+    margin-left: -6px;
+    margin-right: -6px;
 }
 
 mat-card {
@@ -42,7 +48,8 @@ mat-card {
     // height: 580px;
     padding-bottom: 36px;
     // min-width: 250px;
-    ;
+    border-radius: 16px;
+    background-color: #bbbbbb;
 }
 
 .stackItem>img {
@@ -60,14 +67,30 @@ mat-card {
     height: 64px;
 }
 
+.intro>img {
+    max-width: 300px;
+    width: 100%;
+    // margin: 5%;
+}
+
 mat-card-actions {
-    position: absolute;
-    bottom: 16px;
-    // font-size: small;
+    // position: absolute;
+    // bottom: 16px;
+    font-size: small;
+}
+
+mat-card-actions>div>a {
+    padding: 0px;
+    // padding-bottom: 0;
+    // margin: 0;
 }
 
 .mat-button {
     font-size: smaller;
+    // background-color: #eeeeee;
+    background-color: #eeeeee;
+    border-radius: 4px;
+    // border-radius: 4px;
 }
 
 .intro {
