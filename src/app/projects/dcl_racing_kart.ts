@@ -15,5 +15,6 @@ export const DCL_RACING_KART = {
   `,
   article: `https://www.linkedin.com/pulse/kart-simulation-game-decentraland-ludovic-levalleux/`,
   demo: `http://play.decentraland.org/?position=-74,-28`,
-  video: `https://vimeo.com/418486466`
+  video: `https://vimeo.com/418486466`,
+  repo: `https://github.com/levalleux-ludo/Racing-Kart-DCL`
 }
