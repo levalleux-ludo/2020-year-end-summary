@@ -12,7 +12,7 @@ export const PLOT = {
     project: `https://plot.levalleuxludo.now.sh/outcomes`,
   },
   markdown: `
-  #### Do you trust these contact tracing apps launched during the pandemic? Afraid for your privacy? I've investigate the topic with my own touch, leading to an alternative proposition based on cryptography to effectively preserve privacy and personal data self-sovereignty.
+  #### Do you trust these contact tracing apps launched during the pandemic? Afraid for your privacy? I've investigated the topic with my own touch, leading to an alternative proposition based on cryptography to effectively preserve privacy and personal data self-sovereignty.
   #### By the way, the 1st time I've built a :calling: mobile app (using React Native)
   #### Built for: __Consensys Health Stop Covid__ Hackathon (apr 2020)
   #### Built with:
