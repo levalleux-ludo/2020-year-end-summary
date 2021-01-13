@@ -19,7 +19,7 @@ export const DEFIVENTURE = {
   #### Built with:
  `,
  article: `https://devpost.com/software/defi-venture`,
- demo: `levalleux-ludo.github.io/DAPP/DeFiVenture/demo.html`,
- video: `levalleux-ludo.github.io/DAPP/DeFiVenture/video.html`,
+ demo: `https://levalleux-ludo.github.io/DAPP/DeFiVenture/demo.html`,
+ video: `https://levalleux-ludo.github.io/DAPP/DeFiVenture/video.html`,
  repo: `https://github.com/levalleux-ludo/DeFi-Venture`
 }
